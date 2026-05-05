@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../model/Student.php';
 
-// Check if an action was sent via POST or GET
+// Checks if an action was sent via POST or GET
 $action = $_GET['action'] ?? $_POST['action'] ?? '';
 
 switch ($action) {
